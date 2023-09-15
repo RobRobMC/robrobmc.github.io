@@ -1,0 +1,38 @@
+.body{
+background-color:beige ;
+
+}
+
+.header{
+font-size: 50px;
+text-align: center;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.github-container{
+    text-align: center;
+    font-size: 30px;
+}
+
+.image{
+    width: 500px;
+}
+
+.presentation{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.experience-container{
+    text-align: center;
+}
+
+.experiences{
+    width: 300px;
+    font-size: 20px;
+    margin:auto;
+}
