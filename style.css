@@ -1,6 +1,15 @@
-.body{
+*{
+    word-wrap: break-word;
+}
+body{
+    padding: 1rem 2rem;
 background-color:beige ;
 
+}
+@media screen and (min-width:900px){
+    body{
+        padding: 1rem 3rem;
+    }
 }
 
 .header{
@@ -19,6 +28,7 @@ text-align: center;
 
 .image{
     width: 500px;
+    max-width: 100%;
 }
 
 .presentation{
@@ -32,7 +42,12 @@ text-align: center;
 }
 
 .experiences{
-    width: 300px;
     font-size: 20px;
     margin:auto;
+}
+
+@media screen and (min-width:900px){
+    .experiences{
+        width: 300px;
+    }
 }
